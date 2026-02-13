@@ -25,6 +25,6 @@ if(sauda < 12) {
 } else if(sauda < 18) {
     mensagem = "BOA TARDE"
 } else {
-    mensagem = "BOM NOITE"
+    mensagem = "BOA NOITE"
 }
 document.getElementById("mensagem").innerText = mensagem
