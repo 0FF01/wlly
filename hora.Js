@@ -22,9 +22,10 @@ let mensagem = ""
 
 if(sauda < 12) {
     mensagem = "BOM DIA"
-} else if(sauda < 18) {
+} else if(sauda > 18) {
     mensagem = "BOA TARDE"
 } else {
     mensagem = "BOA NOITE"
 }
 document.getElementById("mensagem").innerText = mensagem
+
