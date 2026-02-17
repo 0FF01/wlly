@@ -6,7 +6,7 @@ let hora = cale.toLocaleTimeString("pt-br", {
     minute: "2-digit",
     second: "2-digit"
 })
-document.getElementById("hora3").innerText = hora
+document.getElementById("horas").innerText = hora
 }
 setInterval(atualizarHora,1000)
 
@@ -14,7 +14,7 @@ atualizarHora()
 
 let caler = new Date()
 
-document.getElementById("data1").innerText = (caler.toLocaleDateString("pt-Br"))
+document.getElementById("data").innerText = (caler.toLocaleDateString("pt-Br"))
 
 let sauda = new Date()
 let sauda3 = sauda.getHours()
@@ -22,10 +22,14 @@ let mensagem = ""
 
 if(sauda < 12) {
     mensagem = "BOM DIA"
-} else if(sauda > 18) {
+    document.body.style.backgroundImage = "linear-gradient( #f0f400, #ffb700"
+} else if(sauda <= 18) {
     mensagem = "BOA TARDE"
+    document.body.style.backgroundImage = "linear-gradient( #ff0000, #ffb700"
 } else {
     mensagem = "BOA NOITE"
+    document.body.style.backgroundImage = "linear-gradient( #000000, #0a0036"
 }
-document.getElementById("mensagem").innerText = mensagem
+document.getElementById("reverencia").innerText = mensagem
+
 
