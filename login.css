@@ -69,45 +69,7 @@ body{
     margin-top: 10px;
     background-image: linear-gradient(#ffffff, #000000);
 }
-#git{
-    position: absolute;
-    margin-left: 110px;
-    margin-top: 550px;
-    width: 90px;
-    height: 30px;
-    background-color: transparent;
-    opacity: 1;
-    color: #ffffff;
-    text-shadow: 0 0 5px #ffffff;
-    font-weight: 700;
-    border-radius: 6px;
-}
-#insta{
-    position: absolute;
-    margin-left: 210px;
-    margin-top: 550px;
-    width: 90px;
-    height: 30px;
-    background-color: transparent;
-    opacity: 1;
-    color: #ffffff;
-    text-shadow: 0 0 5px #ffffff;
-    font-weight: 700;
-    border-radius: 6px;
-}
-#zap{
-    position: absolute;
-    margin-left: 310px;
-    margin-top: 550px;
-    width: 90px;
-    height: 30px;
-    background-color: transparent;
-    opacity: 1;
-    color: #ffffff;
-    text-shadow: 0 0 5px #ffffff;
-    font-weight: 700;
-    border-radius: 6px;
-}
+
 /* LINGUAGEM */
 #letreiro{
     position: absolute;
@@ -124,3 +86,4 @@ body{
     right: 20px;
     color: white;
 }
+
