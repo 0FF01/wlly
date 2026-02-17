@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.overlay{
+    position: absolute;
+    height: 350px;
+    width: 800px;
+    background-image: linear-gradient(#000000, #09002a);
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+}
+.centro{
+    position: absolute;
+    top: 14%; left: 9%;
+    height: 250px;
+    width: 650px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+#horas{
+    position: absolute;
+    top: 30%; left: 35%;
+    font-size: xxx-large;
+    font-weight: 700;
+}
+#data{
+    position: absolute;
+    top: 70%; left: 37%;
+    font-size: xx-large;
+    font-weight: 700;
+}
+#reverencia{
+    position: absolute;
+    left: 36%;
+}
+
+@media (max-width: 768px) {
+    .apresentacao h1 {
+        font-size: 32px;
+    }
+    .apresentacao h2 {
+        font-size: 22px;
+    }
+    .apresentacao p {
+        font-size: 16px;
+    }
+
+    .botoes-principais {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .topo-direita {
+        position: static;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}
