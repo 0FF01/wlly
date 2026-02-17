@@ -23,16 +23,3 @@ document.getElementById("hora").innerText = hora
 setInterval(atualizarHora,1000)
 
 atualizarHora()
-
-
-document.getElementById("git").addEventListener("click", function() {
-    window.open("https://github.com/0FF01", "_blank");
-});
-
-document.getElementById("insta").addEventListener("click", function() {
-    window.open("https://instagram.com/weslley_xc7", "_blank");
-});
-
-document.getElementById("zap").addEventListener("click", function() {
-    window.open("https://wa.me/5521959101005?text=Olá%20vim%20pela%20sua%20pagina%20de%20login", "_blank");
-});
