@@ -4,76 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RELOGIO</title>
+        <link rel="stylesheet" href="relogio.css">
 </head>
 <body>
 
-
-    <div class="quadrado">
-      <br><center><div class="quadrado1">
-      <br><center><p id="mensagem" style="color: #000000; font-size: 20px;"></p></center>
-      <center><h1 id="hora3" style="color: #000000; font-size: 60px; "></h1></center>
-      <center><p id="data1" style="color: #000000; font-size: 20px;"></p></center>
-</div></center>
-
-<div class="quadrado2"></div>
-<div class="quadrado3"></div>
-<div class="quadrado4"></div>
-<div class="quadrado5"></div>
+<div class="overlay">
+    <div class="centro">
+        <h1 id="reverencia"></h1>
+        <h1 id="horas"></h1>
+        <h1 id="data"></h1>
+    </div>
 </div>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0px;
-        }
-        .quadrado {
-            width: 700px;
-            height: 300px;
-            background-color: #000000;
-            border-radius: 10px;
-        }
-        .quadrado1 {
-            width: 550px;
-            height: 260px;
-            background-color: #ffffff;
-            border-radius: 10px;
-        }
-        .quadrado2 {
-            margin-left: 7%;
-            width: 25px;
-            height: 70px;
-            background-color: #000000;
-            border-radius: 10px;
-            transform: rotate(20deg);
-        }
-        .quadrado3 {
-            transform: rotate(-20deg);
-            margin-top: -10%;
-            margin-left: 90%;
-            width: 25px;
-            height: 70px;
-            background-color: #000000;
-            border-radius: 10px
-        }
-        .quadrado4 {
-            margin-top: -43%;
-            margin-left: 97.7%;
-            width: 25px;
-            height: 70px;
-            background-color: #000000;
-            border-radius: 10px;
-        }
-        .quadrado5 {
-            margin-top: 3%;
-            margin-left: 97.7%;
-            width: 25px;
-            height: 70px;
-            background-color: #000000;
-            border-radius: 10px;
-        }
-    </style>
    <script src="hora.Js"></script>
 </body>
 </html>
